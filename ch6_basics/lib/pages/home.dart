@@ -1,8 +1,10 @@
+import 'package:ch6_basics/pages/widgets/box_decorator_widget.dart';
 import 'package:ch6_basics/pages/widgets/flatbutton_example.dart';
 import 'package:ch6_basics/pages/widgets/buttom_bar_widget.dart';
 import 'package:ch6_basics/pages/widgets/buttom_navigator_home.dart';
 import 'package:ch6_basics/pages/widgets/container_with_boxdecoration_widget.dart';
 import 'package:ch6_basics/pages/widgets/images_and_icons_widget.dart';
+import 'package:ch6_basics/pages/widgets/input_decorator_widget.dart';
 import 'package:ch6_basics/pages/widgets/popup_menu_button_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
@@ -67,6 +69,10 @@ class _HomeState extends State<Home> {
                   const ButtonBarWidget(),
                   Divider(),
                   const ImagesAndIconsWidget(),
+                  Divider(),
+                  const BoxDecoratorWidget(),
+                  Divider(),
+                  InputDecoratorWidget(),
                 ],
               ),
             ),
